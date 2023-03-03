@@ -1,0 +1,109 @@
+        body {
+            height: 100vh;
+            border: 2px solid red;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .icons {
+            list-style-type: none;
+            display: flex;
+            /* border: 2px solid red; */
+            width: 450px;
+            justify-content: space-between;
+            margin-left: 50px;
+            padding: 0;
+            position: absolute;
+            right: 5px;
+            bottom: 0;
+        }
+
+        .icons .icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 28px;
+            cursor: pointer;
+            transition: all .2s ease;
+            background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+        }
+
+        .icons .face {
+            background: #4267B2;
+            border-radius: 4px;
+        }
+
+        .icons .linked {
+
+            background: #0077b5;
+            border-radius: 4px;
+
+
+        }
+
+        .icons .twetter {
+
+            background: #1DA1F2;
+            border-radius: 4px;
+
+        }
+
+        .icons .github {
+
+            background: black;
+            border-radius: 4px;
+
+        }
+
+        .icons .whats {
+
+            background: #075e54;
+            background: #25d366;
+            border-radius: 4px;
+
+        }
+
+        .icons .discord {
+
+            background: #7289da;
+            border-radius: 4px;
+
+        }
+
+        .icons .telegram {
+
+            background: white;
+            color: #1DA1F2;
+        }
+        .icons .icon:hover {
+            transform: scale(1.1);
+        }
+        .iconns{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            width: 450px;
+            margin-top: 500px;
+            position: absolute;
+            left: 0px;
+            bottom: 0;
+
+        }
+        .iconns img{
+            width: 40px;
+            height: 40px;
+            transition: all .2s ease;
+              
+          }
+          .iconns img:hover{
+          transform:scale(1.1);
+              
+          }
